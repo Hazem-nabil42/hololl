@@ -46,6 +46,7 @@ const Nav = () => {
         {navData.map((link, index) => {
           return (
           <Link 
+            key={index}
             className={`${link.path === pathname && 'text-accent'} 
             relative flex items-center group hover:text-accent
             transition-all duration-300`}

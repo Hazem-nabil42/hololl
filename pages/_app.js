@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       <AnimatePresence mode='wait'>
       <motion.div key={router.route} className='h-full'> {/* motion framer your animation appears for the routing pages */}
         <Transition />  {/* Transition has the delay time for the motion animation also has the layout of the loading screen  */}
-        <Component {...pageProps} />    {/* Here is the component EX: Home, about and its context*/}
+        <Component  />    {/* Here is the component EX: Home, about and its context*/}
       </motion.div>
       </AnimatePresence>
     </Layout>

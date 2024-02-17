@@ -89,7 +89,7 @@ const WorkSlider = () => {
         cursor-pointer'>
           {slide.images.map((image, index) => {
             return (
-              <Link href={`${image.href}`}>
+              <Link key={index} href={`${image.href}`}>
                 <div 
                   className='relative rounded-lg overflow-hidden 
                   flex items-center justify-center group' 
