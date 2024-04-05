@@ -11,6 +11,9 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 
+// Microchip Image
+import { CiMicrochip, CiLaptop  } from "react-icons/ci";
+
 import {
   SiNextdotjs,
   SiFramer,
@@ -50,7 +53,7 @@ const aboutData = [
       },
       {
         title: 'Computer Architecture & Operating System',
-        icons: [],
+        icons: [<CiMicrochip key={CiMicrochip}/>, <CiLaptop key={CiLaptop}/>],
       },
       {
         title: 'Languages',
@@ -129,7 +132,7 @@ const About = () => {
     {/* avatar img */}
     <motion.div 
       className='hidden xl:flex absolute bottom-0 
-     -left-[310px]'
+     -left-[310px] '
       variants={fadeIn('right', 0.2)}
       initial="hidden"
       animate="show"
@@ -142,7 +145,7 @@ const About = () => {
       {/* text */}
       <div className='flex-1 flex flex-col justify-center'>
         <motion.h2 
-          className='h2'
+          className='h2 z-50'
             variants={fadeIn('right', 0.2)}
             initial="hidden"
             animate="show"
@@ -152,7 +155,7 @@ const About = () => {
         </motion.h2>
         
         <motion.p 
-          className='p max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
+          className='p max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-50'
             variants={fadeIn('right', 0.4)}
             initial="hidden"
             animate="show"

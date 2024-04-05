@@ -31,6 +31,7 @@ module.exports = {
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
+        header: 'url("https://64.media.tumblr.com/2d12e193489c59d83770612606c483a8/b455a323a3a051a5-f7/s400x600/0808f8d8a2a44c4ec38700c1b6063e38c9f34bd5.gif")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',

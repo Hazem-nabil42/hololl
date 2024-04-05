@@ -9,6 +9,9 @@ import {
   RxArrowTopRight,
 } from "react-icons/rx"
 
+// Microchip Image
+import { CiMicrochip } from "react-icons/ci";
+
 // data
 const serviceData = [
   {
@@ -22,6 +25,11 @@ const serviceData = [
     description: 'good taste in desgining to customers also in my services Website, mobileApp, menu, etc...',
   },
   {
+    icon: <CiMicrochip />,
+    title: 'Embedded Systems',
+    description: 'I have a good experience in embedded programming with C++ & assembly for high performance. I have worked on many apps like encryption & decryption,LCD, etc...',
+  },
+  {
     icon: <RxRocket />,
     title: 'SEO',
     description: 'also I can improve your SEO for your website to reach maximum amount of customers and gain amazing profit',
@@ -30,11 +38,6 @@ const serviceData = [
     icon: <RxReader />,
     title: 'Copywriting',
     description: 'also I have a great knowlege in copywriting ',
-  },
-  {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'also branding to your products for Shopify dropshipping for example in my services',
   },
 ];
 

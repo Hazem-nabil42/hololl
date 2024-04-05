@@ -23,8 +23,10 @@ const Header = () => {
           priority={true}
           
           /> */}
-          <div className='text-xl md:text-4xl tracking-wider animate-pulse transform hover:scale-75 transition-all duration-300'>
-          <h1>Hazem <span className='text-accent'>Nabil</span>  <span className='text-blue-300'>.</span> </h1>
+          <div className='text-xl md:text-4xl tracking-wider  transform hover:scale-75 
+          transition-all duration-300 '>
+          <h1 className='bg-header text-transparent bg-clip-text '
+          >Hazem  <span className='text-accent'>Nabil</span> <span className='text-blue-400'>.</span> </h1>
           </div>
         </Link>
         {/* scocials */}
