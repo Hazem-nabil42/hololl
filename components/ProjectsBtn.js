@@ -17,7 +17,7 @@ const ProjectsBtn = () => {
     bg-circleStar bg-cover bg-center bg-no-repeat group'
     > 
       <Image 
-        src='./rounded-text.png'
+        src='https://hazem-nabil42.github.io/HazemNabil/rounded-text.png'
         width={141} 
         height={148} 
         alt=''

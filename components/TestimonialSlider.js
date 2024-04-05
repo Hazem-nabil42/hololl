@@ -1,21 +1,21 @@
 // testimonial data
 const testimonialData = [
   {
-    image: './t-avt-1.png',
+    image: 'https://hazem-nabil42.github.io/HazemNabil/t-avt-1.png',
     name: 'Hassna',
     position: 'Customer',
     message:
       'Amazing work and the submition is on time',
   },
   {
-    image: './t-avt-2.png',
+    image: 'https://hazem-nabil42.github.io/HazemNabil/t-avt-2.png',
     name: 'Osama',
     position: 'Customer',
     message:
       'Great work and the quality and the performance of the Website is amazing',
   },
   {
-    image: './t-avt-3.png',
+    image: 'https://hazem-nabil42.github.io/HazemNabil/t-avt-3.png',
     name: 'Fkaar',
     position: 'Customer',
     message:

@@ -5,22 +5,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: './thumb1.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb1.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb2.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb2.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb3.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb3.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb4.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb4.jpg',
           href: '#',
         },
       ],
@@ -29,22 +29,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: './thumb4.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb4.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb1.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb1.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb2.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb2.jpg',
           href: '#',
         },
         {
           title: 'title',
-          path: './thumb3.jpg',
+          path: 'https://hazem-nabil42.github.io/HazemNabil/thumb3.jpg',
           href: '#',
         },
       ],

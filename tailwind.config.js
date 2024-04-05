@@ -27,10 +27,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
-        circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        explosion: 'url("https://hazem-nabil42.github.io/HazemNabil/bg-explosion.png")',
+        circles: 'url("https://hazem-nabil42.github.io/HazemNabil/bg-circles.png")',
+        circleStar: 'url("https://hazem-nabil42.github.io/HazemNabil/circle-star.svg")',
+        site: 'url("https://hazem-nabil42.github.io/HazemNabil/site-bg.svg")',
         header: 'url("https://64.media.tumblr.com/2d12e193489c59d83770612606c483a8/b455a323a3a051a5-f7/s400x600/0808f8d8a2a44c4ec38700c1b6063e38c9f34bd5.gif")',
       },
       animation: {
