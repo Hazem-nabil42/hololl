@@ -9,9 +9,10 @@ function Cards2 () {
             {/* pic */}
             <div className='h-full w-fit'>
                 <Image 
-                src={'https://hazem-nabil42.github.io/holololl/1.jpg'}
+                src={'https://hazem-nabil42.github.io/hololl/1.jpg'}
                 width={200}
                 height={200}
+                alt='image'
                 layout="intrinsic"
                 objectFit="cover"
                 />
@@ -24,7 +25,7 @@ function Cards2 () {
         </div>
         {/* under the box */}
         <div className='mt-10 p-2 text-center text-[rgb(124,165,192)] bg-[#f3fdff] w-full border-t-2 border-blue-300
-        font-medium text-xl'>
+        font-medium text-md lg:text-xl'>
             حل كامل المهارات الحياتيه
         </div>
     </div>

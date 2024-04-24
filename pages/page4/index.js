@@ -9,7 +9,7 @@ import { FaFilter } from "react-icons/fa6";
 import Cards2 from '../../components/Cards2'
 
 
-const page4 = () => {
+const Page4 = () => {
 
   const [selectedCard, setSelectedCard] = useState(null);
 
@@ -32,12 +32,11 @@ const page4 = () => {
   }
 
   return (
-    <div className='px-10 lg:px-52 py-5'>
+    <div className='px-6 lg:px-52 py-5 font-cairo'>
       {/* the content */}
-      <div className='flex gap-5 text-black text-xl justify-between'>
+      <div className='flex gap-5 text-black text-xl justify-between lg:px-16'>
         {/* text_2 */}
         <div className='text'>  
-          {/* <MdCancel className='text-red-600 hover' /> */}
           <FaFilter />
           <span> فلتر </span>
         </div>
@@ -49,7 +48,7 @@ const page4 = () => {
       </div>
 
       {/* cards box */}
-        <div className="px-10 my-10">
+        <div className=" lg:px-10 my-10">
           {/* slider card */}
           <div className="grid grid-cols-2 gap-10 xl:grid-cols-4">
             {/* First row */}
@@ -61,4 +60,4 @@ const page4 = () => {
   );
 };
 
-export default page4;
+export default Page4;

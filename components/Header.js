@@ -29,14 +29,14 @@ function Header( { isOpen, onOverlayToggle } ) {
         <header>
             {/* Semi-transparent overlay */}
 
-			<nav className="flex justify-between gap-10 items-center px-20 py-4 bg-gradient-to-l from-[#c8f9e6]
+			<nav className="flex justify-between gap-10 items-center px-5 lg:px-20 py-4 bg-gradient-to-l from-[#c8f9e6]
 				to-[#a9e5fd] sticky">
 				{/* user and details */}
-				<div className="flex items-center gap-5" >
+				<div className="flex items-center gap-4 lg:gap-5" >
 					<FaUser className='transition duration-300 hover:text-green-600' />
-					<div onClick={toggleDropdown} className="bg-[#01a896] text-xl text-white flex justify-between items-center p-5 gap-7 
-                        rounded-2xl hover:bg-transparent hover:text-[#01a896] border-2 border-[#01a896] transition
-                        duration-300"> 
+					<div onClick={toggleDropdown} className="bg-[#01a896] text-md lg:text-xl text-white flex justify-between 
+                    items-center p-3 gap-2 lg:gap-7 lg:p-5 rounded-2xl hover:bg-transparent hover:text-[#01a896] border-2
+                    border-[#01a896] transition duration-300"> 
 						المحتويات
 						<HiSquares2X2 className='cursor-pointer hover:animate-pulse' />
 						<AnimatePresence>
@@ -84,7 +84,8 @@ function Header( { isOpen, onOverlayToggle } ) {
                     {/* Animated input field */}
 
                 </div>
-				{/* search */}
+				
+                {/* search */}
 				<div className="hidden lg:flex gap-5 items-center justify-center text-2xl bg-white p-3 rounded-2xl">
 					<FaSearch className='hover:text-blue-400 transition duration-300 text-black' />
 					<input type="text" className="rounded-md text-right px-5 border-0 text-black
@@ -92,13 +93,18 @@ function Header( { isOpen, onOverlayToggle } ) {
 				</div>
                 
 				{/* logo */}
-				<Image src={'https://hazem-nabil42.github.io/holololl/logo.png'} width={130} height={130} />
+                <div>
+                    <Image src={'https://hazem-nabil42.github.io/hololl/logo.png'}
+                    width={130} 
+                    height={130}
+                    />
+                </div>
 			</nav>
             <motion.input
                     initial={{ width: 0, opacity: 0 }} // Initial styles
                     animate={{ width: isInputVisible ? '100%' : 0, opacity: isInputVisible ? 1 : 0 }} // Animation styles
                     transition={{ duration: 0.3 }} // Animation duration
-                    className="lg:hidden rounded-xl px-5 border-2 text-black text-lg text-center border-blue-400 h-16"
+                    className="lg:hidden rounded-xl px-5 border-2 text-black text-lg text-center border-[#01a896] h-16"
                     placeholder="ابحث هنا"
             />		
 		</header>
