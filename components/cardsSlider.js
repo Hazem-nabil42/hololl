@@ -13,7 +13,7 @@ function CardsSlider() {
   return (
     <div onClick={toggle} className=''>
       <Link href='#'>
-        <div className='group font-bold tracking-wide text-black text-3xl'>
+        <div className='group font-bold tracking-wide text-black text-xl xl:text-3xl'>
           {/* title */}
           <span> اسم القسم </span>
         </div>
