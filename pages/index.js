@@ -106,12 +106,12 @@ const Home = () => {
                 <span className="text-white bg-[#01a896] px-2 rounded-lg">2</span>
                 <span className="text-black font-bold bg-transparent p-2 rounded-lg">1</span>
               </div>
-              <span className='text-xl'>الفصل</span>
+              <span className='text-lg xl:text-xl'>الفصل</span>
             </div>
           </div>
 
           {/* Header text */}
-          <div className="flex items-center gap-0 text-xl lg:text-xl lg:gap-5 text-black cursor-pointer">
+          <div className="flex items-center gap-2 text-lg lg:text-xl lg:gap-5 text-black cursor-pointer">
             الحلول و الملفات التعليمية
           </div>
         </div>
