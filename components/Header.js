@@ -4,6 +4,8 @@ import { TiThMenuOutline } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import { HiSquares2X2 } from "react-icons/hi2";
 import { MdCancel } from "react-icons/md";
+import { FaRegUser } from "react-icons/fa6";
+import { PiSquaresFourThin } from "react-icons/pi";
 // framer motion
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -12,6 +14,9 @@ import React, { useState } from 'react';
 
 // next images
 import Image from 'next/image'
+
+// Link
+import Link from 'next/link'
 
 function Header( { isOpen, onOverlayToggle } ) {
     //  the input field for mobiles
@@ -29,16 +34,16 @@ function Header( { isOpen, onOverlayToggle } ) {
         <header>
             {/* Semi-transparent overlay */}
 
-			<nav className="flex justify-between gap-10 items-center px-5 lg:px-20 py-4 bg-gradient-to-l from-[#c8f9e6]
+			<nav className="flex justify-between gap-10 items-center px-7 lg:px-20 py-4 bg-gradient-to-l from-[#c8f9e6]
 				to-[#a9e5fd] sticky">
 				{/* user and details */}
 				<div className="flex items-center gap-4 lg:gap-5" >
-					<FaUser className='transition duration-300 hover:text-green-600' />
+					<FaRegUser className='hidden xl:block transition duration-300 text-green-600 text-2xl hover:text-black cursor-pointer' />
 					<div onClick={toggleDropdown} className="bg-[#01a896] text-md lg:text-xl text-white flex justify-between 
-                    items-center p-3 gap-2 lg:gap-7 lg:p-5 rounded-2xl hover:bg-transparent hover:text-[#01a896] border-2
-                    border-[#01a896] transition duration-300"> 
-						المحتويات
-						<HiSquares2X2 className='cursor-pointer hover:animate-pulse' />
+                        items-center p-3 gap-2 lg:gap-3 lg:py-3 lg:px-3 rounded-2xl hover:bg-transparent hover:text-[#01a896] border-2
+                        border-[#01a896] transition duration-300 cursor-pointer"> 
+						<span className="font-normal tracking-wide"> المحتويات </span>
+						<PiSquaresFourThin className='hover:animate-pulse text-3xl' />
 						<AnimatePresence>
                             {isOpen && (
                                 <motion.div
@@ -93,12 +98,12 @@ function Header( { isOpen, onOverlayToggle } ) {
 				</div>
                 
 				{/* logo */}
-                <div>
+                <Link href='/'>
                     <Image src={'https://hazem-nabil42.github.io/hololl/logo.png'}
                     width={130} 
                     height={130}
                     />
-                </div>
+                </Link>
 			</nav>
             <motion.input
                     initial={{ width: 0, opacity: 0 }} // Initial styles

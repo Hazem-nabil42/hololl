@@ -11,14 +11,14 @@ function CardsSlider() {
   }
 
   return (
-    <div onClick={toggle}>
+    <div onClick={toggle} className=''>
       <Link href='#'>
-        <div className='group'>
+        <div className='group font-bold tracking-wide text-black text-3xl'>
           {/* title */}
           <span> اسم القسم </span>
         </div>
         {/* pic */}
-        <div className='h-full w-full my-3 flex justify-center items-center'>
+        <div className='h-full w-full my-5 flex justify-center items-center'>
           <Image 
             src={'https://hazem-nabil42.github.io/hololl/1.png'}
             width={200}

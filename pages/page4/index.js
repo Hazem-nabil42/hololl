@@ -20,6 +20,9 @@ const Page4 = () => {
       cards.push(
         <motion.div
           key={i}
+          initial={{ opacity: 0, translateY: -20 }}
+          animate={{ opacity: 1, translateY: 0 }}
+          exit={{ opacity: 0 }}
           className={`col-span-1 card2`}
           whileHover={{ translateY: -10, transition: { delay: 0.2 } }}
           onClick={() => setSelectedCard(cardIndex)} // Set the selected card index on click
@@ -36,14 +39,14 @@ const Page4 = () => {
       {/* the content */}
       <div className='flex gap-5 text-black text-xl justify-between lg:px-16'>
         {/* text_2 */}
-        <div className='text'>  
+        <div className='flex justify-center items-center gap-2'>  
           <FaFilter />
-          <span> فلتر </span>
+          <span> فلترة </span>
         </div>
         {/* text_1 */}
-        <div className='text'>  
+        <div className='text cursor-pointer'>  
           <IoCloseCircleSharp className='text-red-600 hover' />
-          <span> اسم قسم المادة </span>
+          <span> اسم قسم - المادة </span>
         </div>
       </div>
 

@@ -5,7 +5,12 @@ function Cards2 () {
     return (
     <div className="text-black relative">
         {/* the box */}
-        <div className='flex justify-center items-center min-h-24'>
+        <div className='flex flex-col justify-center items-center min-h-24'>
+            {/* title */}
+            <div className="absolute -top-9 border-2 border-[#01a896] bg-[#01a896] rounded-3xl text-white 
+            py-0 text-md px-2 xl:px-5 font-normal">
+                حل الكتاب
+            </div>
             {/* pic */}
             <div className='h-full w-fit'>
                 <Image 
@@ -13,21 +18,14 @@ function Cards2 () {
                 width={200}
                 height={200}
                 alt='image'
-                layout="intrinsic"
-                objectFit="cover"
                 />
             </div>
-            {/* title */}
-            <div className="absolute -top-10 border-2 border-[#01a896] bg-[#01a896] rounded-3xl text-white p-2 text-md
-            px-5 font-normal">
-                حل الكتاب
+            <div className='mt-10 px-1 py-2 xl:p-5 text-center text-black bg-transparent w-full border-t-2 border-blue-300
+            font-bold text-md lg:text-xl'>
+                حل كامل المهارات الحياتيه
             </div>
         </div>
         {/* under the box */}
-        <div className='mt-10 p-2 text-center text-[rgb(124,165,192)] bg-[#f3fdff] w-full border-t-2 border-blue-300
-        font-medium text-md lg:text-xl'>
-            حل كامل المهارات الحياتيه
-        </div>
     </div>
 
     );

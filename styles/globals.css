@@ -55,8 +55,8 @@
     hover:opacity-100 opacity-90 pb-0 hover:z-40; 
   }
   .card2 {
-    @apply text-center text-[#2f3b3a] font-normal bg-transparent min-h-[25vh] p-5 pb-0 pl-0 pr-0 rounded-tl-3xl 
-    rounded-tr-3xl my-5 cursor-pointer group-hover:text-white border-2 border-blue-300 hover:shadow-xl shadow-black;
+    @apply text-center text-[#2f3b3a] font-normal bg-transparent min-h-[25vh] p-5 pb-0 pl-0 pr-0 rounded-3xl 
+    my-5 cursor-pointer group-hover:text-white border-2 border-blue-300 hover:shadow-xl shadow-black;
   }
   .box {
     @apply py-5 border-2 border-blue-500 text-center text-sm font-semibold bg-white text-black rounded-full
